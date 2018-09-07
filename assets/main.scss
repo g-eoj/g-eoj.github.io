@@ -60,18 +60,18 @@ ul, ol, dl, figure,
     h2 { 
         @include relative-font-size(1.625);  
         margin-bottom: $spacing-unit / 1.5;
-        margin-top: $spacing-unit; 
+        margin-top: $spacing-unit * 2; 
     }
     h3 { 
         @include relative-font-size(1.3125);
         margin-bottom: $spacing-unit / 1.5; 
-        margin-top: $spacing-unit;
+        margin-top: $spacing-unit * 1.5;
     }
     h4 { 
         @include relative-font-size(1);
         font-weight: bold;
         margin-bottom: $spacing-unit / 1.5;
-        margin-top: $spacing-unit * 0.75; 
+        margin-top: $spacing-unit; 
     }
     p { 
         margin-bottom: $spacing-unit / 4;
