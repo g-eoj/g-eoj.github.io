@@ -4,7 +4,7 @@ title: interesting stuff
 permalink: /interesting-stuff/
 ---
 
-Papers I refer to most. Plus cs231n [course notes](https://cs231n.github.io).
+Interesting papers. Also, check out the cs231n [course notes](https://cs231n.github.io).
 
 ### Tuning
 - [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](http://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf)
