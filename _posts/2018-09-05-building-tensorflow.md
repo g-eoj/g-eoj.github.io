@@ -35,7 +35,7 @@ Create wheel:
 
     bazel-bin/tensorflow/tools/pip_package/build_pip_package ~/Projects/tf-builds/wheels
     
-The wheel can be installed directly with `pip` or can be used to [create a conda package](link).
+The wheel can be installed directly with `pip` or can be used to [create a conda package]({% post_url 2018-09-07-installing-tensorflow-conda %}).
 
 ### Errors
 
