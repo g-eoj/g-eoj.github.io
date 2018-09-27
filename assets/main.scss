@@ -32,12 +32,20 @@ ul, ol, dl, figure,
     border-top: 0;
     height: 50vh;
     margin-top: $spacing-unit;
-    // min-height: $spacing-unit * 3;
     padding: $spacing-unit * 0.875 0;
     text-align: center;
     a {
         margin: auto;
     }
+}
+
+.home {
+	margin-top: $spacing-unit / 2;
+}
+
+.post-link{
+	line-height: 1.1;
+	margin-bottom: $spacing-unit / 8;
 }
 
 .post-title {
@@ -49,8 +57,13 @@ ul, ol, dl, figure,
     margin-top: 0;
 }
 
-.post-list-heading {
+.post-list-heading {	
+	border-bottom: 1px solid lighten($text-color, 66%);
+	color: lighten($text-color, 33%);
+	font-size: $spacing-unit * 0.75;
     margin-bottom: $spacing-unit / 2;
+	margin-right: $spacing-unit;
+	margin-top: $spacing-unit * 1.5;
 }
 
 .post-content {

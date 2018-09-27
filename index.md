@@ -5,3 +5,7 @@
 layout: home
 list_title: posts
 ---
+
+## [Notebooks]({% link notebooks.md %})
+Machine learning notebooks I made.
+
